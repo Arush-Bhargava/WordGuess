@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Guess me game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet" />
+    <script src="./game.js"></script>
+    <script src="./words.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div id="container pt-3">
+        <h1 class="text-primary fw-bold fs-1">Guess the Word</h1>
+        <p>Click on the alphabets to guess the word</p>
+        <br><br>
+        <div id="guesses"></div>
+        <div id="blanks"></div><br>
+
+        <button type="button" id="q" class="btn btn-outline-primary clickable">q</button>
+        <button type="button" id="w" class="btn btn-outline-primary clickable">w</button>
+        <button type="button" id="e" class="btn btn-outline-primary clickable">e</button>
+        <button type="button" id="r" class="btn btn-outline-primary clickable">r</button>
+        <button type="button" id="t" class="btn btn-outline-primary clickable">t</button>
+        <button type="button" id="y" class="btn btn-outline-primary clickable">y</button>
+        <button type="button" id="u" class="btn btn-outline-primary clickable">u</button>
+        <button type="button" id="i" class="btn btn-outline-primary clickable">i</button>
+        <button type="button" id="o" class="btn btn-outline-primary clickable">o</button>
+        <button type="button" id="p" class="btn btn-outline-primary clickable">p</button><br>
+        <button type="button" id="a" class="btn btn-outline-primary clickable">a</button>
+        <button type="button" id="s" class="btn btn-outline-primary clickable">s</button>
+        <button type="button" id="d" class="btn btn-outline-primary clickable">d</button>
+        <button type="button" id="f" class="btn btn-outline-primary clickable">f</button>
+        <button type="button" id="g" class="btn btn-outline-primary clickable">g</button>
+        <button type="button" id="h" class="btn btn-outline-primary clickable">h</button>
+        <button type="button" id="j" class="btn btn-outline-primary clickable">j</button>
+        <button type="button" id="k" class="btn btn-outline-primary clickable">k</button>
+        <button type="button" id="l" class="btn btn-outline-primary clickable">l</button><br>
+        <button type="button" id="enter" class="btn btn-outline-primary">Enter</button>
+        <button type="button" id="z" class="btn btn-outline-primary clickable">z</button>
+        <button type="button" id="x" class="btn btn-outline-primary clickable">x</button>
+        <button type="button" id="c" class="btn btn-outline-primary clickable">c</button>
+        <button type="button" id="v" class="btn btn-outline-primary clickable">v</button>
+        <button type="button" id="b" class="btn btn-outline-primary clickable">b</button>
+        <button type="button" id="n" class="btn btn-outline-primary clickable">n</button>
+        <button type="button" id="m" class="btn btn-outline-primary clickable">m</button>
+        <button type="button" id="clear" class="btn btn-outline-primary">⌫</button><br>
+        
+        <div id="reset-container">
+            <button id="reset" class="btn btn-outline-danger">Reset Game</button>
+        </div>
+
+        <p style="margin-top: 1%;">
+            <span>Remaining Life:</span>
+            <span id="life"></span>
+        </p>
+        <div id="hint"></div>
+
+    </div>
+</body>
+
+</html>

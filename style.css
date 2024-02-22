@@ -1,0 +1,43 @@
+body {
+    justify-content: center;
+    height: 100%;
+    width: auto ;
+    text-align: center;
+    padding: 0;
+    font-family: 'Pangolin', cursive;
+    color: aliceblue;
+    background-color: #1A1C1C;
+  }
+  
+  #container {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blanks {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  button {
+    margin: 0.5rem;
+    scale: 1.35;
+  }
+  #reset-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: fit-content;
+  }
+  #hint {
+    border: #447e7e 2px solid;
+    border-radius: 10px;
+    margin-top: 18.5%;
+    font-size: 1.5rem;
+  }
+
+  #life{
+    font-size: 25px;
+  }
