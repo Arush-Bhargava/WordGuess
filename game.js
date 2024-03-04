@@ -21,7 +21,6 @@ jQuery(function ($) {
 
   function resetGame() {
     getRandomWord();
-    console.log(randomWord)
     blanks = generateBlanks(randomWord);
     $("#blanks").html(blanks);
     guess = "";
@@ -36,7 +35,6 @@ jQuery(function ($) {
   // What first executes when the page is loaded
   getRandomWord();
   blanks = generateBlanks(randomWord);
-  console.log(randomWord);
   document.getElementById("reset").style.display='none';
 
 
@@ -49,7 +47,6 @@ jQuery(function ($) {
   // To get the value of guess and display it
   $(".clickable").click(function () {
     guess += $(this).attr("id");
-    console.log(guess);
 
     document.querySelector("#guesses").textContent = guess;
   });
