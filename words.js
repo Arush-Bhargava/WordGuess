@@ -32,7 +32,7 @@ let words = [
 { inputs: 5, catagory: "vehicle", word: "train", hint: "A long vehicle that runs on tracks and is used for transportation, especially of passengers or goods" },
 { inputs: 5, catagory: "city", word: "tokyo", hint: "The capital city of Japan, known for its modernity, technology, and pop culture" },
 { inputs: 5, catagory: "plant", word: "tulip", hint: "A perennial flowering plant that is native to Asia and Europe and is often associated with the Netherlands" },
-{ inputs: 6, catagory:a"sport", word: "soccer", hint: "A popular game played with a round ball and feet" },
+{ inputs: 6, catagory: "sport", word: "soccer", hint: "A popular game played with a round ball and feet" },
 { inputs: 7, catagory: "movie", word: "avatar", hint: "A science fiction film directed by James Cameron" },
 { inputs: 9, catagory: "technology", word: "smartphone", hint: "A mobile device that can make calls, send messages, and run apps" },
 { inputs: 7, catagory: "music", word: "guitar", hint: "A stringed instrument often used in rock and folk music" },
